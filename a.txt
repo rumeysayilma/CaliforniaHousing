@@ -1,0 +1,19 @@
+
+1	Proje Konusu
+Final projesinde aşağıdaki problemlerden sizin grubunuz için atanmış olanı şuana kadar görmüş ve kullanmış olduğunuz yöntemleri kullanarak veya gerekli eklentileri yaparak çözmeniz beklenmektedir.
+Proje için seçilen problemin detaylı olarak incelenmesi, yöntem önerisi, yöntemin matematiksel arka planı, önerilen yöntem ile problemin çözümü ve yönteminizdeki öğrenme hızı gibi parametrelerin sonuca etkisini tartışınız. Proje raporunuzda görselleştirme ve yorumlama büyük rol oynayacaktır, bu kriterleri göz önüne alarak düzenli bir final raporu teslim ediniz.
+Kodlama kısmında ödevinizi iki şekilde çözmeniz beklenmektedir. 
+1.1	Kendi kodlarınız ile çözüm
+MLP ile işlem yapacak olan grupların aşağıdaki yöntemleri önceden yazdıklarız kodlara eklemeleri istenmektedir:
+•	ReLU aktivasyon fonksiyonu
+•	Dropout
+•	Cross-Entropy Loss
+•	Soft-Max fonksiyonu
+•	Confussion Matrix
+1.2	Hazır Python/MATLAB yapay sinir ağı paketleri ile çözüm 
+Ödevinizi Python framework’leri (Pytorch, Keras, Tensorflow kullanabilirsiniz. Sklearn kütüphanesinin ise ara fonksiyonları kullanabilirsiniz, yapay sinir ağını buradan kullanmayınız) veya MATLAB NN toolbox kullanarak çözmeniz gerekmektedir. Dersin adı “Yapay Sinir Ağları” olması nedeniyle makine öğrenmesi (kNN, SVM, ...) metotlarını kullanmayınız. 
+	Karşılaştığınız problemin çözümü için araştırma yapmanız bu final projesinin amacıdır.
+	Final raporu bu dersi sonuçlandıran rapor olması nedeniyle, düzenli bir rapor teslim ediniz. Sayfa numaraları, şekil isimlendirmeleri, genel sayfa düzeni, rapor düzeni ve akış gibi detaylara dikkat ediniz.
+	Kullandığınız veriler hakkında ön bilgi vermeyi unutmayınız.
+	Görselleştirmeler veri işleme problemlerinde ve metotların performans gösterimlerinde çok önemli olduğunu yaptığınız ödevler boyunca gördünüz. Bu raporda göselleştirmelere dikkat ediniz. Farklı kütüphaneler kullanarak detaylandırabilirsiniz. 
+https://blog.paperspace.com/intro-to-optimization-momentum-rmsprop-adam/#:~:text=prone%20to%20overshooting)-,Adam,of%20both%20Momentum%20and%20RMSProp.
