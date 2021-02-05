@@ -17,3 +17,4 @@ MLP ile işlem yapacak olan grupların aşağıdaki yöntemleri önceden yazdık
 	Kullandığınız veriler hakkında ön bilgi vermeyi unutmayınız.
 	Görselleştirmeler veri işleme problemlerinde ve metotların performans gösterimlerinde çok önemli olduğunu yaptığınız ödevler boyunca gördünüz. Bu raporda göselleştirmelere dikkat ediniz. Farklı kütüphaneler kullanarak detaylandırabilirsiniz. 
 https://blog.paperspace.com/intro-to-optimization-momentum-rmsprop-adam/#:~:text=prone%20to%20overshooting)-,Adam,of%20both%20Momentum%20and%20RMSProp.
+https://medium.com/@gulcanogundur/normal-da%C4%9F%C4%B1l%C4%B1m-z-score-ve-standardizasyon-782963bc123e#:~:text=68%E2%80%9395%2D%2099.7%20Kural%C4%B1&text=Normal%20da%C4%9F%C4%B1l%C4%B1mda%20%3B,%99.7'nin%20oldu%C4%9Fu%20g%C3%B6r%C3%BClmektedir.
