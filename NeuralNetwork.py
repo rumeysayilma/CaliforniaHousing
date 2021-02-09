@@ -6,36 +6,37 @@ from tqdm import tqdm
 
 # relu aktivasyon fonksiyonu.
 
-def activation(z, derivative=False):
-
+'''def activation(z, derivative=False):
     if derivative:
-        if z>0:
-            return 1
-        elif z<0:
-            return 0 
+        squarer1 = lambda z: 1 if z>0  else 0
+        squares1 = np.array([squarer1(zi) for zi in z])
+        return squares1      
     else:
-        if z>=0:
-            return z
-        else: 
-            return 0
+        squarer2 = lambda z: z if z>0  else 0
+        squares2 = np.array([squarer2(zi) for zi in z])  
+        return squares2 '''
+
+# Obtain array of square of each element in x
+
 
 #sigmoid
-'''def activation(z, derivative=False):
-    if type == 'sigmoid':
-        if derivative:
-            return activation(z) * (1 - activation(z))
-        else:
-            return 1 / (1 + np.exp(-z))   '''         
+def activation(z, derivative=False):
+    if derivative:
+        return activation(z) * (1 - activation(z))
+    else:
+        return 1 / (1 + np.exp(-z))         
 
 
 #mutlak hata hesaplanıyor
 def cost_function(y_true, y_pred):
-    cost = mean_absolute_error(y_test,predictions)
+    n = y_pred.shape[1]
+    cost = (1./(2*n)) * np.sum((y_true - y_pred.T) ** 2)
     return cost
 
-# Karesel Hata Hesaplayıcı
-#n = y_pred.shape[1]
-#cost = (1./(2*n)) * np.sum((y_true - y_pred.T) ** 2)
+'''def cost_function(y_true, y_pred):
+    cost = mean_absolute_error(y_true,y_pred)
+    return cost'''
+
 class NeuralNetwork(object):
     '''
     size örnek olarak [4,3,2] ise bunun anlamı:
