@@ -33,7 +33,7 @@ x_test = data_vectorizer(x_test, 5)
 
 Network = NeuralNetwork.NeuralNetwork([5, 4, 3, 1])
 epoch, loss, test_loss, test_accuracies, train_accuracies = Network.train(x_train=x_egitim, y_train=yd_egitim, x_test=x_test,
-                                                                              y_test=yd_test, epochs=3, learning_rate=0.6, alfa=0.6, tqdm_=True, stop_error=0.00001)
+                                                                              y_test=yd_test, epochs=30, learning_rate=0.6, alfa=0.6, tqdm_=True, stop_error=0.00001)
 
 print(test_loss)
 
